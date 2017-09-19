@@ -5,6 +5,7 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class Opdr6_4 extends Applet {
+    int test;
     double a = 5.9;
     double b = 6.3;
     double c = 6.9;
