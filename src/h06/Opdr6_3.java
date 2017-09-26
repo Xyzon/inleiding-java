@@ -9,13 +9,12 @@ public class Opdr6_3 extends Applet {
     int a = 147483647;
     int antwoord;
 
-    public void init () {
+    public void init() {
         antwoord = a * b;
 
     }
-    public void paint (Graphics g){
-        g.drawString("negatief getal  " +  antwoord, 60, 60);
+
+    public void paint(Graphics g) {
+        g.drawString("negatief getal  " + antwoord, 60, 60);
     }
-
-
 }

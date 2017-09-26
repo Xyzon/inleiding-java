@@ -46,7 +46,7 @@ public class Opdr5_1 extends Applet {
 
         //Cirkel
         g.setColor(lijnkleur);
-        g.drawOval(560,225,100,100);
+        g.drawOval(56, 0,225,100);
     }
 
 }
