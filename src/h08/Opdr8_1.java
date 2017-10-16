@@ -15,7 +15,7 @@ public class Opdr8_1 extends Applet {
 
 
     public void init() {
-        tekstvak = new TextField("", 30);
+        tekstvak = new TextField("", 10);
         label = new Label("Typ iets in het tekstvak " +
                 "en druk op de knop");
         tekstvak.addActionListener(new KnopListener());
