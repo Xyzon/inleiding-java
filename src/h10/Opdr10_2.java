@@ -28,8 +28,8 @@ public class Opdr10_2 extends Applet{
     }
 
     public void paint(Graphics g){
-        g.drawString("het hoogste getal is:  "+antwoord,100,100);
-        g.drawString("het laagste getal is:  "+antwoord2,100,150);
+        g.drawString("hoogste getal :  "+antwoord,100,100);
+        g.drawString("laagste getal :  "+antwoord2,100,150);
 
     }
 
