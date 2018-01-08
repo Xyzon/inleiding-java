@@ -69,4 +69,4 @@ public class Opdr10_5 extends Applet{
         }
     }
 }
-}
+

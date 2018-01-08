@@ -15,8 +15,8 @@ public class Opdr10_3 extends Applet {
         int dag;
 
         public void init() {
-            tekstvak = new TextField("", 20);
-            label = new Label("TYp de nummer van de maand en druk op Enter.");
+            tekstvak = new TextField("", 5);
+            label = new Label("Typ de nummer van de maand en druk op Enter.");
             tekstvak.addActionListener( new TekstvakListener() );
             tekst = "";
             add(label);
@@ -24,7 +24,7 @@ public class Opdr10_3 extends Applet {
         }
 
         public void paint(Graphics g) {
-            g.drawString(tekst, 50, 60 );
+            g.drawString(tekst, 50, 80 );
         }
 
         class TekstvakListener implements ActionListener {
@@ -69,7 +69,7 @@ public class Opdr10_3 extends Applet {
                         tekst = "Maand: December 31 dagen";
                         break;
                     default:
-                        tekst = "Deze bestaat niet..";
+                        tekst = "Deze bestaat niet1!";
                         break;
                 }
                 repaint();

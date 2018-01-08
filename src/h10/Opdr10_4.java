@@ -24,7 +24,7 @@ public class Opdr10_4 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("" + tekst, 50, 60);
+        g.drawString("" + tekst, 50, 80);
     }
 
     class Teksvaklistener implements ActionListener {
@@ -43,4 +43,4 @@ public class Opdr10_4 extends Applet {
 }
 
 
-}
+
